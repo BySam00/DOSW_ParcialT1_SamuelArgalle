@@ -33,6 +33,7 @@ Requerimiento Funcional 1
 | **Flujo principal** | 1. El solicitante inicia sesión en el sistema con sus credenciales.<br>2. El solicitante selecciona la opción de consultar tutorias.<br>3. El sistema muestra la opcion de la materia que de la que quiere tener tutoria y el respectivo tutor.<br>4. El solicitante elige la acción deseada.<br>5.El sistema ejecuta la acción y actualiza la actividad creada en el sistema.<br>9. El sistema muestra una confirmación de la operación realizada. |
 | **Diagrama de caso de uso** | ![Diagrama de caso de uso - Consultar tutoria](../uml/Caso1.png) |
 | **Poscondiciones** | Se espera como resultado que la tutoria haya sido consultada y luego solicitada, reflejando que para los tutores se haya actualizado su cronograma.|
+| **Historia de Usuario** | COMO Solicitante QUIERO consultar una tutoria PARA PODER saber la disponibilidad de ellas para solicitar una que me ayude con mis materias academicas.|
 
 Requerimiento Funcional 2 
 
@@ -46,6 +47,7 @@ Requerimiento Funcional 2
 | **Flujo principal** | 1. El solicitante inicia sesión en el sistema con sus credenciales.<br>2. El solicitante selecciona la opción de solicitar tutoria.<br>3. El sistema verifica que exista una tutoria disponible para la materia que solicita.<br>4. Busca su tutoria de preferencia y la selecciona.<br>5. El sistema muestra una confirmación de la asignacion de la tutoria.|
 | **Diagrama de caso de uso** | ![Diagrama de caso de uso - Enviar notificacion](../uml/Caso2.png) |
 | **Poscondiciones** | Se espera como resultado que la notificacion llegue al usuario de la confirmacion de su asignacion a una tutoria. |
+| **Historia de Usuario** | COMO Usuario QUIERO Recibir Notificaciones PARA PODER asegurarme de que mi tutoria fue asignada a mi correspondiente tutor para tomar la tutoria.|
 
 
 
