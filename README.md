@@ -117,6 +117,9 @@ URL de Jira: https://samuelargalle651-178853109245.atlassian.net/jira/software/p
 | **Tipo de patron** | Comportamiento |
 | **Justificacion** | Para que se pueda realizar una tutoria como el usuario lo requiere, ya sea FASTEST_AVAILABLE, EXPERT_FIRST o PEER_TUTORING, se necesita el patron de diseño command, el cual recibe la informacion de la solicitud del solicitante y manda esa tarea a que se realice en otro lado mientras el estudiante solo espera respuesta, no va directamente con el desarrolador sino que ya con toda la informacion del estudiante se puede realizar la solicitud en otro lado.|
 
+## Diagrama Clases 
+
+![Diagrama de clases](../uml/Clases.png)
 
 
 
