@@ -103,6 +103,21 @@ La implementación de los requerimientos identificados de TutoECI se desglosa de
 
 URL de Jira: https://samuelargalle651-178853109245.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNWMzNzFkNjM0MjdlNDA2MWFmNTE5NWIyODEyZWY1OWEiLCJwIjoiaiJ9
 
+## Patrones de diseño 
+
+ Campo | Descripción |
+|------|-------------|
+| **Nombre** | Adapter |
+| **Tipo de patron** | Estructural |
+| **Justificacion** | Para poder validar las materias que solicita el estudiante, TuoECI envia los datos del estudiante a Enlace para que el pueda acceder y asi devolver las materias que esta cursando el estudiante, sin embargo, el formato debe ser devuelto no como un .txt u otro formato donde solo sea la informacion de las materias, el formato correcto es formato JSON, lo es diferente a la forma normal que se devuelve informacion. Para eso usamos Adapter, para que haga la misma funcion pero usando un adptador a JSON.|
+
+ Campo | Descripción |
+|------|-------------|
+| **Nombre** | Command |
+| **Tipo de patron** | Comportamiento |
+| **Justificacion** | Para que se pueda realizar una tutoria como el usuario lo requiere, ya sea FASTEST_AVAILABLE, EXPERT_FIRST o PEER_TUTORING, se necesita el patron de diseño command, el cual recibe la informacion de la solicitud del solicitante y manda esa tarea a que se realice en otro lado mientras el estudiante solo espera respuesta, no va directamente con el desarrolador sino que ya con toda la informacion del estudiante se puede realizar la solicitud en otro lado.|
+
+
 
 
 
