@@ -49,6 +49,60 @@ Requerimiento Funcional 2
 | **Poscondiciones** | Se espera como resultado que la notificacion llegue al usuario de la confirmacion de su asignacion a una tutoria. |
 | **Historia de Usuario** | COMO Usuario QUIERO Recibir Notificaciones PARA PODER asegurarme de que mi tutoria fue asignada a mi correspondiente tutor para tomar la tutoria.|
 
+## Desglose de trabajo: Épicas, Historias de Usuario y Tareas
+
+La implementación de los requerimientos identificados de TutoECI se desglosa de la siguiente manera:
+
+### 1. Épica:
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | SCRUM-5 |
+| **Título** | Recomendar Tutor|
+| **Descripción** | Permitir a TutoECI que recomiende los mejores tutores para la asignatura que selecciono el solicitante. |
+| **Stakeholder** | Solicitantes y Tutores |
+
+### 2. Historias de usuario:
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | SCRUM-6 |
+| **Título** | Auntenticacion del solicitante para obtener tutores recomendados |
+| **Descripción** | *Como solicitante, quiero obtener recomendaciones de tutores para dar escoger al mejor y disciplinado que pueda ayudarme a entender la materia.* |
+| **Criterios de aceptación** | 1. Dado que el solicitante ingresa a TutoECI con sus credenciales, entonces el sistema le concede acceso y lo redirige a solicitar tutoria.<br>2. Dado que el solicitante ingresa credenciales inválidas, cuando envíe el formulario, entonces el sistema muestra un mensaje de error sin conceder acceso.<br>3. Dado que el solicitante deja campos vacíos, cuando intente iniciar sesión, entonces el sistema le indica qué campos son obligatorios. |
+| **Prioridad** | *Alta* |
+| **Estimación** | *5 puntos de historia* |
+
+### Tareas
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | SCRUM-7 |
+| **Título** | CONECTAR BASE DE DATOS AL SOFTWARE |
+| **ID de la Historia de Uso asociada** | SCRUM-13 |
+| **Descripción** | *Como desarrollador, quiero conectar la base de datos al software , para poder realizar recomendaciones de tutores.*  |
+| **Tareas requisito** | *NINGUNA*|
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | SCRUM-8 |
+| **Título** | *RECIBIR DATOS*|
+| **ID de la Historia de Uso asociada** | SCRUM-13 |
+| **Descripción** | *Como desarrollador, quiero poder recibir datos, para poder realizar consultas de tutores disponibles en mi base de datos.*  |
+| **Tareas requisito** | *SCRUM-7* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | SCRUM-9 |
+| **Título** | *CONSULTA BASE DE DATOS*|
+| **ID de la Historia de Uso asociada** | SCRUM-13 |
+| **Descripción** | *Como desarrollador, quiero poder realizar consultas de tutores, para poder realizar validaciones de datos para la recomendacion.*  |
+| **Tareas requisito** | *SCRUM-7* |
+
+## Jira
+
+URL de Jira: https://samuelargalle651-178853109245.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNWMzNzFkNjM0MjdlNDA2MWFmNTE5NWIyODEyZWY1OWEiLCJwIjoiaiJ9
+
 
 
 
